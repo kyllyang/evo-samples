@@ -1,4 +1,4 @@
-package com.github.framework.evo.sample;
+package com.github.framework.evo;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -14,8 +14,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-public class EvoSampleApplication {
+public class EvoBaseDataMybatisPlusSampleApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(EvoSampleApplication.class, args);
+		SpringApplication.run(EvoBaseDataMybatisPlusSampleApplication.class, args);
 	}
 }

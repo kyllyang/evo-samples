@@ -1,6 +1,6 @@
 spring:
   application:
-    name: evo-base-data-mybatis-plus-sample
+    name: evo-flowable-sample
   cloud:
     config:
       discovery:

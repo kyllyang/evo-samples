@@ -1,5 +1,5 @@
 server:
-  port: 20902
+  port: 20905
 management:
   endpoints:
     web:
@@ -36,3 +36,5 @@ spring:
       enabled: true
     sampler:
       probability: 1.0
+  main:
+    allow-bean-definition-overriding: true
